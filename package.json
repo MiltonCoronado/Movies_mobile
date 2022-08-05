@@ -1,19 +1,20 @@
 {
-  "name": "Movies_Web",
+  "name": "movies_mobile",
   "version": "1.0.0",
-  "description": "movies web and API",
+  "description": "consuming a movie REST API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MiltonCoronado/Movies_Web.git"
+    "url": "git+https://github.com/MiltonCoronado/Movies_mobile.git"
   },
+  "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MiltonCoronado/Movies_Web/issues"
+    "url": "https://github.com/MiltonCoronado/Movies_mobile/issues"
   },
-  "homepage": "https://github.com/MiltonCoronado/Movies_Web#readme"
+  "homepage": "https://github.com/MiltonCoronado/Movies_mobile#readme"
 }
