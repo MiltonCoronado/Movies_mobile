@@ -14,8 +14,6 @@ window.addEventListener('DOMContentLoaded', navigator, false)
 window.addEventListener('hashchange', navigator, false)
 
 function navigator(){
-  console.log({ location });
-
   if(location.hash.startsWith('#trends')){
     trendsPage();
   }else if(location.hash.startsWith('#search=')){
@@ -92,6 +90,10 @@ function movieDetailPage(){
   categoriesPreviewSection.classList.add('inactive');
   genericSection.classList.add('inactive');
   movieDetailSection.classList.remove('inactive');
+
+  const [_, movieId] = location.hash.split('=');
+
+  getMovieById(movieId);
 };
 
 function searchPage(){
